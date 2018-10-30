@@ -12,13 +12,13 @@ function BoardMember(name, homeState, training){
 //   this.approve = function(){
 //     return 'You can do that!'
 //   }
-  BoardMember.prototype.approve = function (){
+  BoardMember.prototype.approve = function(){
     return 'You can do that!'
   };
 //   this.doCharity = function(){
 //     return "I like to help people."
 //   }
-  BoardMember.prototype.doCharity = function (){
+  BoardMember.prototype.doCharity = function(){
     return 'I like to help people.'
   };
 //   this.releasePressStatement = function(){
