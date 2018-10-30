@@ -6,13 +6,21 @@ this.training = training
 //   this.veto = function(){
 //     return 'No, I must disagree'
 //   }
+  BoardMember.prototype.veto = function (){
+    return 'No, I must disagree'
+  };
 //   this.approve = function(){
 //     return 'You can do that!'
 //   }
+  BoardMember.prototype.approve = function (){
+    return 'You can do that!'
+  };
 //   this.doCharity = function(){
 //     return "I like to help people."
 //   }
-//
+  BoardMember.prototype.doCharity = function (){
+    return 'I like to help people.'
+  };
 //   this.releasePressStatement = function(){
 //     return "You will see great things from Scuber."
 //   }
